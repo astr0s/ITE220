@@ -1,0 +1,7 @@
+var customername = "Chaky";
+var price = 10;
+var quantity = 3;
+var totalPrice = price * quantity;
+
+document.getElementById("custome-name").InnerHTML = "Chaky";
+document.getElementById("price").innerHTML = "$" + totalPrice;
